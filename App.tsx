@@ -57,7 +57,7 @@ export default function App() {
     leyenda = `Gana Local por ${diferencia}`;
   } else if (visitante > local) {
     leyenda = `Gana Visitante por ${diferencia}`;
-  }
+  } 
 
   const estaEnCero = local === 0 && visitante === 0;
 
